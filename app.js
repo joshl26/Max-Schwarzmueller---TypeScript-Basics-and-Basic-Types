@@ -9,7 +9,10 @@ var person = {
     name: "Josh",
     age: 30,
     hobbies: ["Sports", "Cooking"],
+    role: [2, "author"],
 };
+person.role.push("Admin");
+person.role[1] = 10;
 var favoriteActivities;
 favoriteActivities = ["sports"];
 console.log(person.name);
